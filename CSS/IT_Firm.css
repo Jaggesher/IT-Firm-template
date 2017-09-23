@@ -1,0 +1,85 @@
+
+ .navbar {
+      font-family: Montserrat, sans-serif;
+      margin-bottom: 0;
+      background-color: transparent; 
+      border: 0;
+      font-size: 18px !important;
+      letter-spacing: 3px;
+      padding: 10px;
+  }
+  .navbar li a, .navbar .navbar-brand { 
+      color: #fff !important;
+  }
+  .navbar-nav li a:hover {
+      color: #d5d5d5 !important;
+      background-color: #1b263d!important; 
+  }
+
+  .navbar-nav li.active a {
+      color: #fff  !important;
+      background-color: inherit!important;
+      border:2px solid #fff; 
+      border-radius: 4px;
+  }
+
+  .nav-colored { background-color:#041c49; }
+  .nav-transparent { background-color:transparent;}
+
+  .navbar-default .navbar-toggle {
+      border-color: transparent;
+  }
+
+  .carousel-caption {
+    top: 20%;
+    bottom: auto;
+}
+
+.carousel-inner img {
+  width: 100%; 
+  margin: auto;
+}
+.carousel-caption h1{
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.carousel-caption button{
+  background:transparent;
+  color: white;
+  font-size: 20px;
+  padding: 10px 40px 10px 40px;
+}
+
+.clsIcon{
+  margin-top: 15px;
+  background-color: #041c49;
+  color: white;
+  font-size: 32px;
+  padding: 15px;
+  border-radius: 50px;
+}
+
+.clsImage{
+  height: 200px;
+  width: 200px;
+  border-radius: 100px;
+}
+
+.clsPro{
+  background-color: inherit;
+  color: white;
+  border-radius: 20px;
+}
+
+footer {
+    background-color: #7690c5;
+    color: #fff;
+    padding: 32px;
+}
+
+@media (max-width: 600px) {
+  .carousel-caption {
+    display: none; 
+  }
+}
